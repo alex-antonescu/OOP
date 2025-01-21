@@ -1,0 +1,4 @@
+Clasa Vehicul nu va fi compilabila deoarece nu implementeaza toate metodele din interfata.
+O interfata este ca un fel de contract. Atunci cand o clasa decide sa o implementeze promite sa implementeze toate
+metodele declarate in interfata.
+Metoda park() din FunctiiVehicul nu este implementata, prin urmare clasa nu va compila.

@@ -1,0 +1,5 @@
+Interfata Risky a fost implementata direct in clasa Proiect.
+Cum toate celelalte tipuri de proiecte mostenesc acessta clasa vor veni cu propria implmenentare.
+Am decis sa abordez aceasta solutie deoarece orice proiect trebuie sa implementeze interfata Proiect.
+In loc sa implementez de 3 ori aceeasi interfata am implementat o singura data in clasa parinte.
+Overriding ul se va putea face asupra acestei clase 
