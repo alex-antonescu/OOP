@@ -1,0 +1,4 @@
+Nu putem spune ca exista o varianta mai buna.
+Totul depinde de aplicatia in care dorim sa utilizam ArrayList sau LinkedList
+Spre exemplu, ArrayList este varianta optima atunci cand dorim sa accesam elemente rapid.
+Daca pentru noi este mai important inserarea, stergerea elementelor din lista atunci LinkedList este varianta optima.
