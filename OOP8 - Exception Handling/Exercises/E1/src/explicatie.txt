@@ -1,0 +1,7 @@
+Programul descris aici va afisa: L1L2L2L2
+Explicatie este urmatoarea: in primul caz int i = 0,
+Deci se va arunca exceptia de tip L1 care va fi tratat in primul catch clause;
+In celelate cazuri blocul if else va returna exceptia L2 care va fi tratata in cel de al doilea clause;
+!!! Gresit !!!
+Se va arunca prima exceptie, ce va fi tratata in blocul catch. Astfel se iese din blocul for
+Si nu se mai executa nimic dupa catch.
