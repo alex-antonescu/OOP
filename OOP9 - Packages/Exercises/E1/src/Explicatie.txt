@@ -1,0 +1,6 @@
+In cele din urma, pentru a face modificarile specificate de exercitiu
+va trenui sa: - cream un nou pachet pachet2
+              - sa mutam clasa B respectiva in pachet2
+              - primim o eroare - A nu e recunoscut
+              - vom face clasa A publica pentru a putea fi accesata din exteriorul pachetului
+              - in pachet2 A se va apela astfel: pachet1.A
