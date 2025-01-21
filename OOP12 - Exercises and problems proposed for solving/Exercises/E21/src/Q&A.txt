@@ -1,0 +1,11 @@
+In care din implementarile urmatoare ale interfetei List accesul la un element din
+mijlocul listei prin intermediul unui index se face mai incet si de ce: ArrayList sau
+LinkedList?
+
+-ArrayList este implementat ca un tablou intern
+ Elementele sunt indexate pe baza pozitiei din array
+ Acces in timp de executie constant O(1)
+
+-LinkedList sau lista inlantuita
+ Elementele sunt indexate pe baza unei referinte la elementul anterior
+ Acces in timp de executie linear O(n)

@@ -1,0 +1,25 @@
+//fisierul PackageAClass.java
+package a;
+public class PackageAClass {
+PackageAClass() { }
+}
+
+//fisierul PackageBClass.java
+package b;
+public class PackageBClass {
+PackageBClass() { }
+void foo() { }
+}
+
+Fie clasele de mai sus. Cum pot fi folosite instante noi ale clasei PackageAClass
+din metoda foo() din clasa PackageBClass fara a modifica clasa PackageAClass sau
+pachetul in care se afla; pot fi adaugate clase noi.
+
+Raspuns: prin import package a.PackHelper. Cum clasa PackageAClass nu are nici
+
+package a;
+public class PackHelper{
+    public static PackageAClass createInstance(){
+        return new PackageAClass();
+    }
+}

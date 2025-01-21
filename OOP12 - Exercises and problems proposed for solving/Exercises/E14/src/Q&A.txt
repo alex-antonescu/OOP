@@ -1,0 +1,10 @@
+De cate feluri pot fi specificatorii de acces ai unei clase
+in interiorul unui pachet?
+Dati exemplu de o clasa care poate fi folosita doar in interiorul
+pachetului in care a fost declarata.
+
+Specificatorii de acces pot fi
+- public
+- protected
+
+O clasa default poate fi declarata doar la nivel de pachet!

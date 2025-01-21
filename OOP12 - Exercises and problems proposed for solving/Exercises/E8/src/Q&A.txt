@@ -1,0 +1,9 @@
+Specificati relatia/relatiile de mostenire care exista intre clasele
+Object, RuntimeException, Error, Throwable si Exception.
+
+Clasele mai sus metionate se afla in urmatoare ierarhie:
+Object <-- Throwable
+Throwable <--Exception
+          <-- RuntimeException
+          <-- Error
+

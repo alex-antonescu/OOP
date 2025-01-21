@@ -1,0 +1,6 @@
+1. Dati un scurt exemplu in care s-a ilustrat  conceptul de producator/ consumator.
+Avem o aplicatie in care modelam un magazin.
+In acest caz, un obiect de tip producator poate fi un furnizor ce aprovizioneaza magazinul.
+Consumatorul va fi clientul ce poate achizitiona un produs.
+
+

@@ -1,0 +1,5 @@
+Care e relatia dintre clasele Exceptie1, Exceptie2 si Exceptie3 astfel incat codul de
+mai sus sa poata fi compilat?
+
+Well, pentru ca codul sa fie compilabil trebuie sa existe urmatoare ierarhie...
+E3 ---> E2 ---> E1

@@ -1,0 +1,6 @@
+Clasele E1 si E2 sunt exceptii. Ce trebuie sa fie indeplinit pentru ca urmatorul cod
+sa fie corect (Atentie: nu se va modifica in niciun fel codul de mai jos!)
+
+- cele 2 exceptii trebuie sa fie exceptii neverificate, astfel compilatorul
+nu ne va obliga sa tratam aceste exceptii(sa modificam codul din clasa SomeClass)
+- cele 2 exceptii vor mostenii RuntimeException

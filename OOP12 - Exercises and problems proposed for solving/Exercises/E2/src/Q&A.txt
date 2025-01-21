@@ -1,0 +1,12 @@
+Dati doua variante de raspuns si explicati diferenta/ diferentele dintre ele
+
+
+1) Scrierea e posibila in 2 conditii:
+---clasa Exemplu mosteneste clasa AltExemplu
+---clasa Exemplu implemneteaza interfata AltExemplu
+
+Diferenta principala dintre cele 2 exemple este ca in primul caz
+acest tip de utilizare este mai potrivit pentru scenariul in care
+dorim sa transmitem comportament/ atribute din clasa parinte catre clasa copil.
+In al doilea caz se doreste doar respectarea unui contract, fara a defini o ierarhie
+de clase.

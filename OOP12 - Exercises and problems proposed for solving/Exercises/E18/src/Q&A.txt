@@ -1,0 +1,20 @@
+Avem o clasa Elemente care incapsuleaza o colectie ArrayList. In aceasta colectie
+dorim sa adaugam obiecte periferice de tipul Tastatura, Ecran si Difuzor. In acest
+scop am folosit urmatoarele metode pentru adaugare:
+public void add(Tastatura t)
+public void add(Ecran e)
+public void add(Difuzor d)
+In viitorul apropiat s-ar putea sa dorim sa adaugam si alte tipuri de periferice cum
+ar fi un Scanner si atunci ar trebui sa adaugam in clasa Elemente metoda
+public void add(Scanner t).
+
+Propuneti o solutie pentru adaugarea de elemente in colectie astfel incat adaugarea
+unui element de tip Scanner sa nu implice modificari asupra clasei Elemente.
+
+Propunere de implementare: Clasa Elemente va contine un ArrayList<Periferice>. Mai
+departe, fiecare obiect ce va fi adaugat in lista din clasa de elemente vor fi de tipul
+periferice. Indiferent de orice tip creat. Pentru a implementa aceasta ierarhie, se va crea
+o clasa Periferice. Fiecare nou obiect de acest tip va mosteni clasa. Astfel, cand vom adauga
+un nou "Scanner" ce mosteneste periferic nu va trebui sa audcem modificari in elemente.
+Aceeasi idee se poate implementa si prin interfete, caz in care nu dorim sa stabilim o ierarhie de
+clase, ci doar un contract.

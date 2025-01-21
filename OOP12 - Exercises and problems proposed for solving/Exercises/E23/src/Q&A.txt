@@ -1,0 +1,11 @@
+Explicati cateva diferente dintre Thread si Runnable.
+-ambele utilizate pentru a genera un fir de executie.
+
+
+- Thread - clasa ce reprezinta un fir de executie;
+  Pentru a face uz de acesta clasa trebuie sa mosteneasca Thread
+- Runnable - interfata ce se poate implementa pentru a
+  defenii comportamentul unui fir de executie
+  Peentru a face uz de aceasta clasa trebuie sa implementeze Runnable
+
+

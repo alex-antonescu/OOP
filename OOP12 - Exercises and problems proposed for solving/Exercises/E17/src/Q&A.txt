@@ -1,0 +1,7 @@
+Ce fel de clase pot fi folosite in afara pachetului in care au fost declarate? Ce fel de
+metode apartinand unei clase dintr-un pachet nu pot fi folosite in afara pachetului
+in care a fost declarata clasa?
+
+1 - Clasele ce sunt setate ca fiind public si pachetul in care sunt declarate a fost importat
+2 - Metodele ce nu au specificator de acces sau cele ce sunt default, protected sau private.
+    Cele protected doar in cazul in care clasa apelanta nu extinde clasa declarata

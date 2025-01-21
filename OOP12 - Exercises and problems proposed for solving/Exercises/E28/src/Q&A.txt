@@ -1,0 +1,6 @@
+Codul din exemplul dat va avea urmatorul output: "ThreadOne"
+
+Acest lucru se intampla deoarece:
+-p1: se creeaza un nou obiect de tip ThreadOne caree ia ca parametru un obiect ce implemnteaza Runnable, in acest ca ThreadTwo
+-p2: se apeleaza metoda start pt ThreadOne ce va apela metoda run din ThreadOne
+-p3: se afiseaza ThreadOne

@@ -1,0 +1,7 @@
+Presupunem ca avem pachetul unu in care sunt definite clasele publice U1 si U2 si pachetul unu.pp
+in care sunt definite clasele publice P1 si P2, acestea neavand nici un constructor definit de programator. ˆ
+In fisierul F din pachetul doi avem instructiunea import unu.*. In fisierul F avem o clasa C.
+Se poate scrie in interiorul unei metode a clasei C codul P1 p = new P1()?
+
+Raspunsul este NU. Clasa P1 nu va fi vizibila in acest context.
+Pentru a putea scrie acest cod va trebui sa utilizam: import unu.pp

@@ -1,0 +1,3 @@
+Se poate instantia in F clasa P1 doar cu import unu.*;
+NU! Deoarece acest import face vizibil doar clasele din pachetul unu,
+nu si clasele din alt subpachet al pachetului respectiv.

@@ -1,0 +1,7 @@
+Care e relatia dintre clasele Exceptie1, Exceptie2 si Exceptie3 daca afirmatia urmatoare
+e adevarata: indiferent de exceptia aruncata de metoda oMetoda pe ecran,
+intotdeauna se afiseaza: “Exceptie1”?
+
+Pentru care Exceprtie1 sa fie mereu afisat pe ecran va trebui ca toate
+Exceptiile sa mosteneasca Exceptie1. Astfel atat Exceptie2 cat si Exceptie3
+vor fi instante ale Exceptiei1, fiind capturate in primul bloc catch().

@@ -1,0 +1,4 @@
+Avantajele folosirii polimorfismului
+- reutilizarea codului (in cazul claselor Amenda + derivatele)
+- tratarea uniforma a obiectelor
+  (adaugarea/ iterarea prin lista in clasa POLITIA)

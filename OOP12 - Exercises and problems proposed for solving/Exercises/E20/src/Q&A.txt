@@ -1,0 +1,6 @@
+!!!Precizati utilitatea iteratorilor!!!
+
+Iteratori sunt utili atunci cand:
+-in situatia in care trebuie sa parcurgem o colectie
+-tipul exact al colectiei nu este cunoscut
+-pentru a elimina elemente din lista

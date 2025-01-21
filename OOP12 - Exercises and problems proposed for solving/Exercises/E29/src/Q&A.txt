@@ -1,0 +1,9 @@
+Pana la modificare comportamentul programului era unul neasteptat.
+Din cauza ca cele 2 fire de executie nu colaborau intre ele textul afisat
+nu era cel asteptat. Procesorul scria o linie dupa care pasa acesta era pasat
+catre alt fir unde se relua scrierea de la alta linie si nu se genera un comportament asteptat
+Astfel, daca dorim o functionare corecta cele 2 fire trebuie sa colaboreze.
+S-a creat o clasa scriere ce dispune de o metoda scriere. Toate obiectele
+fir de executie dispun de un obiect static scriere ce este comun pt toate firele.
+De asemenea, ne am asigurat ca obiectul poate fi utilizat de un singur fir de executie prin
+intermediul cuv cheie syncronized aplicat metodei.

@@ -1,0 +1,11 @@
+Care este rezultatul rularii acesteia?
+Dati explicatiile pentru care se produce acest rezultat.
+
+La rulare codul din clasa A va afisa: true true;
+Acest rezultat se genereaza deoarece operatorul "instanceof"
+verifica daca un obiect este o instanta al unei clase si
+returneaza true sau false.
+
+Cum clasa Exception cat si Error sunt clase copil
+ale clasei Throwable obiectele din clasa A tipul vor fi
+de tipul Throwable, prin urmare rezultatul va fi true.

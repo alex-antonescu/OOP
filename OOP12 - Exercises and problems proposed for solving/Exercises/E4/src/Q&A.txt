@@ -1,0 +1,4 @@
+Un obiect poate avea mai multe tipuri?
+Sigur, in OOP obiectele respecta principiul mostenirii si al polimorfismului.
+Acest lucru permite unui obiect sa fie, pe langa tipul pr-zis,
+de orice alt tip al claselor parinte ori orice supertip.

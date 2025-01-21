@@ -1,0 +1,9 @@
+Specificati linia/liniile care cauzeaza necompilarea codului si
+explicati pe scurt dece se intampla acest fapt.
+
+Liniile 3 si 4 nu vor compila deoarece modificatorii de acces sunt setati
+ca fiind protected respectiv private. Astfel, in cazul liniei nu exista o garantie
+ca clasele ce implementeaza interfata se afla intr-o ierarhie comuna cu interfata.
+In cazul ultimei linii, cu siguranta metoda nu va fi vizibila in alt context din exteriorul
+interfetei. Prin urmare implementarea este imposibila. Ceea ce va duce la o eroare de
+compilare.

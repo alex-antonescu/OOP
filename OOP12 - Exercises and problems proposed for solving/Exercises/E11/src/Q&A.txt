@@ -1,0 +1,7 @@
+In implementarea din acest program s-au utilizat doua
+tipuri de exceptii, una verificat si una neverificata.
+Cea neverificata nu ne obliga sa semnalam ca metoda
+va arunca o eroare sau sa o tratam intr-un bloc try-catch.
+Cea verificata ne obliga sa facem acest pas suplimentar.
+Totusi, daca dorim putem, sa tratam si exceptia neverificata.
+Acest lucru este la latitudinea programatorului.

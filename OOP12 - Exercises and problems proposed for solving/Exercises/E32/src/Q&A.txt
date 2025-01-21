@@ -1,0 +1,13 @@
+Sa se explice care sunt avantajele folosirii mostenirii de tip in cadrul acestei aplicatii.
+- tratarea uniforma a obiectelor ce apartin aceleiasi ierarhii de clase;
+
+Descrieti modificarile necesare astfel incat pe parcursul existentei programului
+clasa Coada sa nu poata fi instantiata decat o singura data. Apoi modificati
+implementarea clasei astfel incat aceasta sa nu poata avea mai mult de o instanta.
+- pentru a pune acest lucru in functiune ar trebui sa declaram tabloul de stocare al cardurilor static
+Dca dorim sa mergem un pas mai in fata si sa ne asiguram ca doar o singura instanta a unei clase
+poate sa existe vom declara clasa Coada statica si o vom infasura in jurul altei clase - clasa wrapper.
+
+- saaau, singleton....
+
+

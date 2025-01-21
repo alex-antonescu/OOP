@@ -1,0 +1,15 @@
+Ce s-ar intampla daca in cadrul acestei aplicatii nu s-ar folosi polimorfismul?
+= aplicatia dezvoltata nu ar suferi din acest punct de vedere
+= este o aplicatie minimalista, robusta ce nu utilizeaza concepte precum mostenirea/
+  polimorfismul
+= aceasta decizie a fost luata prin prisma faptului ca s-a dorit o aplicatie cat mai robusta,
+  utilizarea acestor concepte aici ar face solutia mai complexa fara sa fie cazul.
+  Astfel prin implementarea a 2 extra parametrii s-a adus o solutie ideala.
+
+Explicati mecanismul prin care la adaugarea unui produs se testeaza daca produsul
+exista sau nu in depozit.
+= aceasta functionalitate a fost implementata printr-o metoda dedicata.
+= metoda "cautaProdus" returneaza o variabila de tip boolean si accespta ca parametru un obiect de tip produs
+  metoda pleaca de la primul element al tabloului si merge spre coada acestuia. In momentul in care elementul
+  a fost gasit (pe baza suprascrierii metodei equals/ hashcode) se opreste brusc bucla (break) si se returneaza
+  true (in caz contrar - nu este gasit niciun obiect se returneaza false)
